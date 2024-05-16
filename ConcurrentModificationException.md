@@ -64,7 +64,7 @@ Exception in thread "main" java.util.ConcurrentModificationException
     at com.gpcoder.collection.list.ConcurrentModificationException.ConcurrentModificationException2.main(ConcurrentModificationException2.java:19)
 ```
 
-## Cách phòng tránh
+## 2. Cách phòng tránh
 ### 2.1 Sử dụng vòng lặp for-index
 ```
     for (int i = 0; i < languages.size(); i++) {
